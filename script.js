@@ -25,7 +25,7 @@ document.getElementById("form").addEventListener("submit", function(event) {
                 body: JSON.stringify({
                     message: 'Atualizando dados',
                     content: btoa(dados),
-                    sha: "https://github.com/rrbsantan/Formulario/blob/main/dados.csv"
+                    sha: "7d00565006879abee6e1feefa5860f647296d23f"
                 })
             }).then(response => response.json())
             .then(data => {
